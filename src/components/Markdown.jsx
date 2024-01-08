@@ -23,7 +23,7 @@ const Markdown = ({ markdownText }) => {
           return !inline ? (
             <div className="relative">
               <button
-                className="bg-blue-500 rounded-lg text-black text-right absolute top-0 right-0"
+                className="bg-blue-200 rounded-md text-black text-right p-1 absolute top-0 right-0"
                 onClick={() => handleCopyToClipboard(codeContext)}
               >
                 Copy code
